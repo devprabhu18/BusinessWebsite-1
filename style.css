@@ -1,8 +1,39 @@
 .nav-link{
-    color:#ffbe0b;
     margin: 0 0.7em;
+    color:blueviolet
 }
 
 .navbar-nav {
     margin-left: 2em;
+    color: blueviolet;
+}
+
+.homepage{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    height: 500px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5em;
+   
+}
+
+.animation{
+    height: 500px;
+    width:50em;
+    margin-right: 2em;
+}
+
+h1{
+    font-size: 6em;
+}
+h2{
+    font-size: 2.5em;
+    color: blueviolet;
 }
