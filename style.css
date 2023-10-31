@@ -16,7 +16,8 @@
     justify-content: space-between;
     height: 500px;
     border-bottom: 1px solid blueviolet;
-    border-radius: 5%;
+    border-radius: 10%;
+    margin-top: 1.2em;;
 }
 
 .title{
@@ -28,7 +29,9 @@
 }
 
 .animation{
-    height: 500px;
+    padding-top: 2em;
+    margin-top: 1.5em;
+    height: 400px;
     width:50em;
     margin-right: 2em;
 }
@@ -41,7 +44,9 @@ h2{
     font-size: 2.5em;
     color: blueviolet;
 }
-
+.mission{
+    margin:3em 0 3em;
+}
 
 .missionhead{
     font-size: 3em;
@@ -52,14 +57,14 @@ h2{
 }
 
 .missionp{
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.7em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
     border-bottom: 1px solid blueviolet;
-    padding-bottom: 1.4em;
+    padding-bottom: 2.5em;
 }
 
 .mission{
@@ -69,17 +74,29 @@ h2{
 }
 
 .service{
+    padding-top: 0.7em;
+    margin-top: 2em;
     display: flex;
     justify-content: space-around;
 }
 .card>img{
-    height:15em;
+    height:13em;
+}
+
+.card-title{
+    color:blueviolet
 }
 
 .services{
     border-bottom: 1px solid blueviolet;
     margin-bottom: 0.7em;
-    padding-bottom:2em;
+    padding-bottom:4em;
+    margin-top: 3em;
+}
+
+
+.aboutus{
+    margin-top: 3em;
 }
 
 iframe {
@@ -91,11 +108,14 @@ iframe {
 .add{
     font-weight: 500;
 }
+.contact{
+    margin-top: 3em;
+}
 
 .contactcontent{
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .rightc{
@@ -113,3 +133,4 @@ footer{
     color: white;
     padding-top: 0.7em;
 }
+
