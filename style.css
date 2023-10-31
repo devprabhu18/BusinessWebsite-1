@@ -82,3 +82,34 @@ h2{
     padding-bottom:2em;
 }
 
+iframe {
+    height:300px;
+    width: 400px;
+    margin-bottom: 2em;
+}
+
+.add{
+    font-weight: 500;
+}
+
+.contactcontent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rightc{
+    margin-top: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-top: 2em;
+    
+}
+.foot{
+    color: white;
+    padding-top: 0.7em;
+}
