@@ -56,10 +56,26 @@ h2{
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid blueviolet;
+    padding-bottom: 1.4em;
 }
 
 .mission{
-    padding-bottom: 1.4em;
+    
     margin-bottom:0.7em;
+    
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+.card>img{
+    height:15em;
+}
+
+.services{
     border-bottom: 1px solid blueviolet;
+    margin-bottom: 0.7em;
+    padding-bottom:2em;
 }
